@@ -13,8 +13,6 @@ const personalMovieDB = {
 };
 //3
 let movie = prompt("Your last seen film?","");
-let rating = prompt("Your rating to that movie!", "");
+let rating = prompt("Your rating to that movie?", "");
 
-const movies = {
-    movie: rating,
-};
+personalMovieDB.movies[movie]=rating;
